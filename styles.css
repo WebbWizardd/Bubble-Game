@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+.bada-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 85%;
+    height: 85%;
+    background-color: rgb(70, 50, 132);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.top_section{
+    width: 100%;
+    height: 10%;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btm_section{
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: white;
+}
+.inner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+.bubble:hover{
+    cursor: pointer ;
+    background-color: rgb(29, 150, 110);
+}
+.game_over{
+    color:#fff;
+    text-align: center;
+}
+.gameover_div{
+    display: block;
+    text-align: center;
+}
+.dis_score{
+    color: burlywood;
+}
